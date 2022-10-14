@@ -1,0 +1,95 @@
+.Counter{
+   height:25vh;
+   width: 100%;
+}
+.Counter .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+.Counter .container section{
+   width: 50%;
+   display: flex;
+   justify-content:space-around;
+}
+.Counter .container .content h1{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 67px;
+   line-height: 80px;
+   color: #2C2E33;
+}
+.Counter .container .content p{
+   margin-top: -10px;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   color: #2C2E33;
+}
+.Counter .container .content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+@media only screen and (max-width: 900px){
+   .Counter .container{
+      flex-direction: column;
+   }
+   .Counter .container section{
+      width: 100%;
+   }
+   .Counter{
+      padding: 30px 0;
+      height:25vh;
+   }
+   .Counter .container .content h1{
+      font-size: 42px;
+      line-height: 50px;
+   }
+   .Counter .container .content p{
+      font-size: 14px;
+      line-height: 17px;
+   }
+}
+@media only screen and (max-width: 300px){
+   .Counter .container section{
+      flex-direction: column;
+      height: 50%;
+   }
+   .Counter{
+      height: 45vh;
+   }
+}
+
+.Links{
+   margin-top: 100px;
+   width: 100%;
+   max-height: 25vh;
+}
+.Links .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+.Links .container img{
+   height: 200px;
+}
+@media only screen and (max-width: 800px){
+   .Links{
+      margin-top: 50px;
+   }
+   .Links .container img{
+      height: 100px;
+   }
+}
+@media only screen and (max-width: 400px){
+   .Links{
+      margin-top: 20px;
+   }
+   .Links .container img{
+      height: 50px;
+   }
+}

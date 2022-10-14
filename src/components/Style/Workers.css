@@ -1,0 +1,137 @@
+.Workers{
+   background-color: #FFD361;
+   padding-bottom: 60px;
+}
+.Workers .container .content{
+   padding-top: 90px;
+}
+.Workers .container .content .Secondary_Text{
+   width: 70%;
+   margin-top: 15px;
+}
+.Workers .container .carusel{
+   margin-top: 50px;
+   overflow: hidden;
+   text-align:center;
+}
+.Workers .container .carusel .slider{
+   min-height: 369px;
+   display: flex;
+   align-items: center;
+   transition:1s;
+   text-align: start;
+}
+.C_Card12{
+   min-width: 220px;
+   min-height: 186px;
+   background-color: white;
+   clip-path: path("M48.246 10.5969C50.1799 4.29893 55.997 0 62.5853 0H194.922C204.946 0 212.149 9.64163 209.307 19.2534L163.218 175.117C161.314 181.555 155.365 185.944 148.652 185.862L15.0405 184.243C5.02864 184.122 -2.05599 174.412 0.883079 164.841L48.246 10.5969Z");
+   /*transition:.1s*/
+   position:relative;
+}
+.active12{
+   min-width: 695.5px;
+   min-height:  370px;
+   padding: 30px;
+   background-color: white;
+   clip-path: path("M0 35C0 15.67 15.67 0 35 0H646.753C670.696 0 687.57 23.5024 679.916 46.1892L579.034 345.189C574.233 359.419 560.888 369 545.87 369H35C15.67 369 0 353.33 0 334V35Z");
+   transition:All .2s;
+   position:relative;
+   overflow: hidden;
+}
+.Workers .container .carusel .slider .active12 .Text_26{
+   margin-top: 30px;
+   width: 480px;
+}
+.Workers .container .carusel .slider .active12 button{
+   margin-top: 40px;
+}
+.text{
+   display:none
+}
+.text1{
+   display:block
+}
+.Workers .container .carusel>.btn_prime{
+   margin-top: 90px;
+
+}
+.img21{
+   max-width: 300px;
+   position:absolute;
+   top: 0;
+   left: 400px;
+}
+.img1{
+   max-width: 180px;
+   position: absolute;
+   left: 50px;
+   top: 10px;
+}
+.carusel i{
+   margin-right: 20px;
+}
+
+@media only screen and (max-width: 950px){
+   .Workers .container .carusel{
+      margin-top: 0;
+   }
+   .Workers .container .carusel .slider{
+      min-height: 250px;
+   }
+   .Workers .container .carusel .btn_prime{
+      margin-top: 0;
+   }
+   .Workers .container .carusel .slider .active12{
+      min-width: 284.18px;
+      clip-path: path("M0 15C0 6.7157 6.71573 0 15 0H263.291C273.552 0 280.784 10.0725 277.504 19.7954L236.755 140.57C234.697 146.668 228.978 150.774 222.542 150.774H15C6.71572 150.774 0 144.058 0 135.774V15Z");
+      height: 150.77px;
+      padding: 12px;
+      min-height: 250px;
+   }
+   .Workers .container .carusel .slider .C_Card12{
+      clip-path: path("M18.7212 7.07729C20.0063 2.87222 23.8875 0 28.2845 0H76.6329C83.3097 0 88.1111 6.41815 86.2261 12.8233L68.8891 71.7318C67.6241 76.0301 63.6544 78.9623 59.1741 78.9077L10.3411 78.313C3.6723 78.2318 -1.04973 71.7691 0.899513 65.391L18.7212 7.07729Z");
+      min-width: 93px;
+      height: 79px;
+      border-radius: 10px;
+   }
+   .Workers .container .carusel .slider .Data__Text{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+   }
+   .Workers .container .carusel .slider .Text_32{
+      margin-top: -5px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+   }
+   .Workers .container .carusel .slider .active12 .Text_26{
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      width: 100%;
+   }
+   .Workers .container .carusel .slider .active12 .text1{
+     width:200px; 
+   }
+   .Workers .container .carusel .slider .active12 .btn_prime{
+      display: none;
+   }
+   .img21{
+      max-width: 120px;
+      position:absolute;
+      top: 0;
+      left: 180px;
+   }
+   .img1{
+      width: 100px;
+      position: absolute;
+      left: 5px;
+      top: 5px;
+   }
+}

@@ -1,0 +1,90 @@
+@import url("../Style/Font/stylesheet.css");
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Harmonia Sans Pro Cyr';
+   list-style: none;
+   text-decoration: none;
+   object-fit:cover;
+}
+.App{
+   background-color: #DEDDDC;
+}
+.btn_prime{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 26px;
+   text-align: center;
+   color: #E8EAF3;
+   padding: 17px 42px;
+   border: none;
+   background-color:#2C2E33;
+   border-radius:9px;
+}
+.container {
+   width: 81.25%;
+   margin: 0 auto;
+}
+.kl{
+   color: red;
+}
+.Prime_Text{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 67px;
+   line-height: 80px;
+   color: #2C2E33;
+}
+.Secondary_Text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 38px;
+   color: #2C2E33;
+}
+.Data__Text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   color: #2C2E33;
+   opacity: 0.6;
+}
+.Text_32{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 38px;
+   color: #2C2E33;
+   margin-top: 15px;   
+}
+.Text_26{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 26px;
+   line-height: 31px;
+   color: #2C2E33;
+   margin-top: 20px;
+}
+.C_yellow{
+   background-color: #FFD361
+}
+@media only screen and (min-width: 1920px){
+   .container{
+      width: 1440px;
+   }
+}
+@media only screen and (max-width: 750px){
+   .Secondary_Text{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 26px;
+   }
+   .Prime_Text{
+      font-size: 42px;
+      line-height: 50px;
+   }
+}

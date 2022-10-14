@@ -1,0 +1,106 @@
+.News{
+   padding-top: 100px;
+   padding-bottom: 60px;
+}
+.News .container{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.News .container .btn_prime{
+   margin-top: 150px;
+}
+.News .Cards {
+   margin-top: 50px;
+   /*margin: 0 auto;*/
+}
+.News .Cards .P__Card{
+   display: flex;
+   justify-content:space-between;
+}
+.News .Cards .P__Card img{
+   width: 48%;
+   min-height: 320px;
+   box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 22px;
+}
+.News .Cards .P__Card .content{
+   width: 48%;
+}
+.News .Cards .P__Card .content h1{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 42px;
+   line-height: 50px;
+   color: #2C2E33;
+   margin-top: 15px;
+}
+.News .Cards .P__Card .content p{
+   margin-top: 20px;
+}
+.News .Cards .g_Card{
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+.News .Cards .g_Card .card{
+   width: 30%;
+}
+.News .Cards .g_Card .card img{
+   width: 100%;
+   height: 210px;
+   box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 22px;
+   margin-bottom: 30px;
+   object-fit: cover;
+}
+@media only screen and (max-width: 1100px){
+   .News .Cards .content h1{
+      font-size: 26px;
+      line-height: 31px;
+   }
+   .News .Cards .content p{
+      font-size: 16px;
+      line-height: 19px;
+   }
+   .News .Cards .content .Data__Text{
+      font-size: 14px;
+      line-height: 17px;
+   }
+   .News .container .btn_prime{
+      margin-top: 80px;
+   }
+}
+@media only screen and (max-width: 750px){
+
+   .News .Cards .P__Card{
+      width: 100%;
+      flex-direction: column;
+   }
+   .News .Cards .g_Card{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+   }
+   .News .Cards .P__Card img{
+      width: 100%;
+   }
+   .News .Cards .P__Card .content{
+      margin-top: 40px;
+      width: 100%;
+   }
+   .News .Cards .P__Card .content h1{
+      font-size: 26px;
+      line-height: 31px;
+   }
+   .News .Cards .g_Card{
+      margin-top: 50px;
+      display: none;
+   }
+   .News .Cards .g_Card .card,img{
+      width: 100%;
+   }
+   .News .Cards .g_Card .card p{
+      padding-bottom: 30px;
+   }
+}

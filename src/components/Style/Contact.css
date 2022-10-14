@@ -1,0 +1,112 @@
+.Contact{
+   padding-top: 10px;
+   padding-bottom: 60px;
+}
+.Contact .container{
+   display: flex;
+   justify-content:space-between;
+   margin-top: 90px;
+   align-items:center
+}
+.Contact .container .content{
+   width: 48%;
+}
+.Contact .container .content .Secondary_Text{
+   width: 70%;
+   margin-top: 60px;
+}
+.Contact .container .content .contact{
+   margin-top: 60px;
+}
+.Contact .container .content .contact .social{
+   margin-top: 60px;
+}
+.Contact .container .content .contact .social a{
+   margin-top: 30px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 26px;
+   color: #2C2E33;
+   display: flex;
+   align-items: center;
+}
+.Contact .container .content .contact .social a i{
+   width: 50px;
+   font-size: 50px;
+   margin-right:35px;
+}
+.Contact .container form{
+   width: 48%;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.25);
+   border-radius: 30px;
+   text-align:center;
+   padding:50px   
+}
+.Contact .container form .ng div{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.Text_26_Form{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 26px;
+   line-height: 31px;
+   color: #2C2E33;
+}
+.Contact .container form>.ng{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+}
+.Contact .container form>.ng>div{
+   width: 47%;
+}
+.Contact .container form .ng div input{
+   border: 2px solid #2C2E33;
+   border-radius: 9px;
+   padding:15px 20px;
+   width: 100%;
+}
+.Contact .container form>div{
+   display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+   margin-top: 35px;
+}
+.Contact .container form>div input,textarea,select{
+   border: 2px solid #2C2E33;
+   border-radius: 9px;
+   padding:15px 20px;
+   width: 100%;
+}
+.Contact .container form>input{
+   margin-top: 35px;
+}
+@media only screen and (max-width: 900px){
+   .Contact .container{
+      flex-direction: column
+   }
+   .Contact .container .content{
+      width: 100%;
+   }
+   .Contact .container form{
+      margin-top: 60px;
+      width: 100%;
+   }
+}
+@media only screen and (max-width: 500px){
+   .Contact .container form>.ng{
+      flex-direction: column;
+      width: 100%;
+   } 
+   .Contact .container form>.ng div,input{
+      width: 100%;
+   }
+   .Contact .container form>.ng div:nth-child(2){
+      margin-top: 35px;
+   }
+}

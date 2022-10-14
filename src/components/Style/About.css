@@ -1,0 +1,49 @@
+.About{
+   width: 100%;
+   min-height: 75vh;
+   background-color: #FFD361;
+}
+.About .container{
+   padding-top: 190px;
+   padding-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.About .container .content{
+   width: 50%;
+   margin-right: 70px;
+}
+
+.About .container .content h3{
+   width: 100%;
+   margin-top: 30px;
+}
+.picture_1{
+   width: 50%;
+   /*height: 456.59px;*/
+}
+.picture_1 img{
+   width: 100%;
+}
+@media only screen and (max-width: 1030px){
+   .About .container{
+      flex-direction: column-reverse;
+   }
+   .picture_1{
+      width: 100%;
+   }
+   .About .container .content{
+      width: 100%;
+      margin: 0;
+      margin-top: 100px;
+   }
+}
+@media only screen and (max-width: 750px){
+   .About .container .content .Prime_Text{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 38px;
+   }
+}

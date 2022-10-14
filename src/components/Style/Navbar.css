@@ -1,0 +1,123 @@
+.Navbar{
+   width: 100%;
+   height: 120px;
+   background-color: #FFD361;
+   position:fixed;
+   top: 0;
+   left: 0;
+   z-index: 10;
+}
+.Navbar .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   height:100%
+}
+.Navbar .container .logo{
+   position: relative;
+   width: 270px;
+   height:120px;
+   top: 0;
+   left: 0;
+}
+.Navbar .container .logo span{
+   position: absolute;
+   color: #E8EAF3;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 42px;  
+   line-height: 50px;
+   top: 20%;
+   left: 0;
+}
+.Navbar .container .logo .svg{
+   position: absolute;
+   width: 480px;
+   height: 128.5px;
+   left: -153px;
+   top: -40px;
+   clip-path: path("M5.28175 32.9028C-5.69689 19.9005 3.54563 0 20.563 0H350.539C356.812 0 362.722 2.94345 366.501 7.95037L433.307 96.4504C443.254 109.627 433.854 128.5 417.344 128.5H95.2887C89.3984 128.5 83.8076 125.903 80.0075 121.403L5.28175 32.9028Z");
+   background-color:#2C2E33;
+}
+.Navbar .container .logo:hover{
+   transform: scale(110%);
+   transition:ease-in .5s;
+}
+.Navbar .container .nav_list{ 
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+}
+.Navbar .container .nav_list li a{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 26px;
+   color: #2C2E33;
+}
+.Navbar .container i{
+   font-size:50px;
+   display: none;
+}
+@media only screen and (max-width: 1400px) {
+   .Navbar{
+      height:90px;
+   }
+   .Navbar .container .nav_list{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding: 100px 0;
+      background-color: #FFD361;
+      transform:translateX(-100%);
+      transition: all .4s;
+   }
+   .Navbar .container button{
+      display: none;
+   }
+   .Navbar .container i{
+      display: block;
+   }
+}
+@media only screen and (max-width: 700px) {
+   .Navbar .container .logo{
+      position: relative;
+      width: 190px;
+      top: 30px;
+      left: 0;
+   }
+   .Navbar .container i{
+      font-size:30px;
+   }
+   .Navbar .container .logo span{
+      position: absolute;
+      color: #E8EAF3;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 42px;  
+      line-height: 50px;
+      width: auto;
+      top: 5%;
+      left: 0;
+   }
+   .Navbar .container .logo .svg{
+      position: absolute;
+      width: 273px;
+      height: 98px;
+      left: -55px;
+      top: -40px;
+      clip-path: path("M3.50617 30.8757C-5.11596 17.5691 4.43489 0 20.2907 0H192.471C199.873 0 206.669 4.08761 210.138 10.6257L240.914 68.6257C247.982 81.9464 238.326 98 223.247 98H57.8723C51.0926 98 44.7745 94.5654 41.0878 88.8757L3.50617 30.8757Z");
+      background-color:#2C2E33;
+   }
+   .Navbar .container .logo span{
+      font-size: 26px;
+line-height: 31px;
+   }
+}
